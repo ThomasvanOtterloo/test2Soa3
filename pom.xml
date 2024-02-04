@@ -8,10 +8,19 @@
     <artifactId>test2</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+
+
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.9.6</version>
+            </plugin>
+        </plugins>
     </properties>
     <dependencies>
         <dependency>
@@ -23,3 +32,4 @@
     </dependencies>
 
 </project>
+
